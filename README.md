@@ -11,6 +11,12 @@ Network analysis tools from the command line
 1 directories, 4 files
 </pre>
 
+## Installation
+<pre>
+git clone https://github.com/Tristanlee3401/network-analysis-tools
+cd network-analysis-tools
+</pre>
+
 To compile C, run:
 <pre>
 gcc ip-to-bin.c -o ip-to-bin

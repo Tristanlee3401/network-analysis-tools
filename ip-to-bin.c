@@ -18,11 +18,13 @@ void print_binary(uint32_t ip)
 
 int main()
 {
-	char ip_str[16]; // 111.111.111.111
+	char ip_str[16]; // 111.111.111.111 (15 char) + 1 escape character
 	printf("Enter IP address: \n");
+	
+	// To prevent buffer overflow
 	if (scanf("%s", ip_str) != 1)
 	{
-		printf("Error reading input. \n");
+		printf("Error reading input. \n"); 		
 		return 1;
 	};
 	struct in_addr ip_addr;
