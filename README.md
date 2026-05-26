@@ -6,7 +6,7 @@ Network analysis tools from the command line
 ├── README.md
 ├── ip-to-bin
 ├── ip-to-bin.c
-└── subnet_calculator.py
+└── subnet-calculator.py
 
 1 directories, 2 files
 
