@@ -8,7 +8,15 @@ Network analysis tools from the command line
 ├── ip-to-bin.c
 └── subnet-calculator.py
 
-1 directories, 2 files
+1 directories, 4 files
+</pre>
 
+To compile C, run:
+<pre>
+gcc ip-to-bin.c -o ip-to-bin
+</pre>
 
+To execute Python, run:
+<pre>
+python3 subnet-calculator.py
 </pre>
